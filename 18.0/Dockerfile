@@ -103,4 +103,6 @@ USER odoo
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["odoo"]
 
+COPY requirements.txt .
+
 RUN pip install -r requirements.txt
