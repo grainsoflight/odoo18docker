@@ -106,3 +106,5 @@ CMD ["odoo"]
 COPY requirements.txt .
 
 RUN pip install -r requirements.txt
+
+RUN echo "Checking for requirements.txt:" && ls -la && cat requirements.txt
