@@ -1,4 +1,3 @@
-# Add a new comment to trigger build.
 FROM ubuntu:noble
 MAINTAINER Odoo S.A. <info@odoo.com>
 
